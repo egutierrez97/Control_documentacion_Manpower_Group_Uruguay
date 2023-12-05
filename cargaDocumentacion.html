@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANPOWER GROUP - CONTROL DOCUMENTACION</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-primary ">
+            <div class="col-xs-4 col-sm-6">
+                <a class="navbar-brand" href="index.html">
+                    <img src="Img/icono_datalogic_blanco.png" alt="MANPOWER_CON_NOMBRE">
+                </a>
+            </div>
+
+            <div class="pe-4 ">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-blue dropdown-toggle text-light" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Mi cuenta
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end ">
+                        <li><button class="dropdown-item" type="button">Mi perfil</button></li>
+                        <li><button class="dropdown-item" type="button">Cambio contraseña</button></li>
+                        <li><button class="dropdown-item" type="button">Salir</button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="background-Blue">
+
+        <div class="row altura container">
+            <div class="col-md-3 text-light ">
+                <div class="row">
+                    <div class="accordion mt-2" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header"><a href="index.html"><button class="accordion-button"
+                                        type="button">
+                                        Inicio
+                                    </button></a>
+                            </h2>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Subir documentacion
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <form action="cargaDocumentacion.html">
+                                    <div class="accordion-body">
+                                        <p>Periodo</p>
+
+                                        <div class="input-group mb-3">
+                                            <label class="input-group-text" for="inputGroupSelect01">Mes</label>
+                                            <select class="form-select" id="inputGroupSelect01">
+                                                <option value="1">Enero</option>
+                                                <option value="2">Febrero</option>
+                                                <option value="3">Marzo</option>
+                                                <option value="4">Abril</option>
+                                                <option value="5">Mayo</option>
+                                                <option value="6">Junio</option>
+                                                <option value="7">Julio</option>
+                                                <option value="8">Agosto</option>
+                                                <option value="9">Septiembre</option>
+                                                <option value="10">Octubre</option>
+                                                <option value="11">Noviembre</option>
+                                                <option value="12">Diciembre</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="input-group mb-3">
+                                            <label class="input-group-text" for="inputGroupSelect01">Año</label>
+                                            <select class="form-select" id="inputGroupSelect01">
+                                                <option value="2020">2020</option>
+                                                <option value="2021">2021</option>
+                                                <option value="2022">2022</option>
+                                                <option value="2023">2023</option>
+                                                <option value="2024">2024</option>
+                                                <option value="2025">2025</option>
+                                            </select>
+                                        </div>
+
+                                        <button class="btn btn-blue text-light">Aplicar</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Mi documentacion
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <form action="archivosCargados.html">
+                                    <div class="accordion-body">
+                                        <p>Periodo</p>
+                                        <div class="input-group mb-3">
+                                            <label class="input-group-text" for="inputGroupSelect01">Mes</label>
+                                            <select class="form-select" id="inputGroupSelect01">
+                                                <option value="1">Enero</option>
+                                                <option value="2">Febrero</option>
+                                                <option value="3">Marzo</option>
+                                                <option value="4">Abril</option>
+                                                <option value="5">Mayo</option>
+                                                <option value="6">Junio</option>
+                                                <option value="7">Julio</option>
+                                                <option value="8">Agosto</option>
+                                                <option value="9">Septiembre</option>
+                                                <option value="10">Octubre</option>
+                                                <option value="11">Noviembre</option>
+                                                <option value="12">Diciembre</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="input-group mb-3">
+                                            <label class="input-group-text" for="inputGroupSelect01">Año</label>
+                                            <select class="form-select" id="inputGroupSelect01">
+                                                <option value="2020">2020</option>
+                                                <option value="2021">2021</option>
+                                                <option value="2022">2022</option>
+                                                <option value="2023">2023</option>
+                                                <option value="2024">2024</option>
+                                                <option value="2025">2025</option>
+                                            </select>
+                                        </div>
+                                        <button class="btn btn-blue text-light">Aplicar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Mis pendientes
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the
+                                    <code>.accordion-flush</code> class. This is the third item's accordion body.
+                                    Nothing more exciting
+                                    happening here in terms of content, but just filling up the space to make it look,
+                                    at least at first
+                                    glance, a bit more representative of how this would look in a real-world
+                                    application.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="fixed-bottom bg-primary text-light">
+    </footer>
+
+    <script src="Script/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

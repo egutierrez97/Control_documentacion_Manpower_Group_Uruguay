@@ -14,7 +14,7 @@
   <header>
     <nav class="navbar bg-primary ">
       <div class="col-xs-4 col-sm-6">
-        <a class="navbar-brand" href="">
+        <a class="navbar-brand" href="index.html">
           <img src="Img/icono_datalogic_blanco.png" alt="MANPOWER_CON_NOMBRE">
         </a>
       </div>
@@ -34,17 +34,16 @@
       </div>
     </nav>
   </header>
-  <main>
+  <main class="background-Blue">
 
-    <div class="row altura">
-      <div class="col-md-3 background-Blue text-light ">
+    <div class="row altura container">
+      <div class="col-md-3 text-light ">
         <div class="row">
-          <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion mt-2" id="accordionFlushExample">
             <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button">
-                  Inicio
-                </button>
+              <h2 class="accordion-header"><a href="index.html"><button class="accordion-button" type="button">
+                    Inicio
+                  </button></a>
               </h2>
             </div>
             <div class="accordion-item">
@@ -55,38 +54,44 @@
                 </button>
               </h2>
               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <p>Periodo</p>
-                  <div class="input-group mb-3">
-                    <label class="input-group-text" for="inputGroupSelect01">Mes</label>
-                    <select class="form-select" id="inputGroupSelect01">
-                      <option value="1">Enero</option>
-                      <option value="2">Febrero</option>
-                      <option value="3">Marzo</option>
-                      <option value="4">Abril</option>
-                      <option value="5">Mayo</option>
-                      <option value="6">Junio</option>
-                      <option value="7">Julio</option>
-                      <option value="8">Agosto</option>
-                      <option value="9">Septiembre</option>
-                      <option value="10">Octubre</option>
-                      <option value="11">Noviembre</option>
-                      <option value="12">Diciembre</option>
-                    </select>
-                  </div>
+                <form action="cargaDocumentacion.html">
+                  <div class="accordion-body">
+                    <p>Periodo</p>
 
-                  <div class="input-group mb-3">
-                    <label class="input-group-text" for="inputGroupSelect01">Año</label>
-                    <select class="form-select" id="inputGroupSelect01">
-                      <option value="2020">2020</option>
-                      <option value="2021">2021</option>
-                      <option value="2022">2022</option>
-                      <option value="2023">2023</option>
-                      <option value="2024">2024</option>
-                      <option value="2025">2025</option>
-                    </select>
+                    <div class="input-group mb-3">
+                      <label class="input-group-text" for="inputGroupSelect01">Mes</label>
+                      <select class="form-select" id="inputGroupSelect01">
+                        <option value="1">Enero</option>
+                        <option value="2">Febrero</option>
+                        <option value="3">Marzo</option>
+                        <option value="4">Abril</option>
+                        <option value="5">Mayo</option>
+                        <option value="6">Junio</option>
+                        <option value="7">Julio</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Septiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
+                      </select>
+                    </div>
+
+                    <div class="input-group mb-3">
+                      <label class="input-group-text" for="inputGroupSelect01">Año</label>
+                      <select class="form-select" id="inputGroupSelect01">
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                      </select>
+                    </div>
+
+                    <button class="btn btn-blue text-light">Aplicar</button>
                   </div>
-                </div>
+                </form>
+
               </div>
             </div>
             <div class="accordion-item">
@@ -97,38 +102,41 @@
                 </button>
               </h2>
               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <p>Periodo</p>
-                  <div class="input-group mb-3">
-                    <label class="input-group-text" for="inputGroupSelect01">Mes</label>
-                    <select class="form-select" id="inputGroupSelect01">
-                      <option value="1">Enero</option>
-                      <option value="2">Febrero</option>
-                      <option value="3">Marzo</option>
-                      <option value="4">Abril</option>
-                      <option value="5">Mayo</option>
-                      <option value="6">Junio</option>
-                      <option value="7">Julio</option>
-                      <option value="8">Agosto</option>
-                      <option value="9">Septiembre</option>
-                      <option value="10">Octubre</option>
-                      <option value="11">Noviembre</option>
-                      <option value="12">Diciembre</option>
-                    </select>
-                  </div>
+                <form action="archivosCargados.html">
+                  <div class="accordion-body">
+                    <p>Periodo</p>
+                    <div class="input-group mb-3">
+                      <label class="input-group-text" for="inputGroupSelect01">Mes</label>
+                      <select class="form-select" id="inputGroupSelect01">
+                        <option value="1">Enero</option>
+                        <option value="2">Febrero</option>
+                        <option value="3">Marzo</option>
+                        <option value="4">Abril</option>
+                        <option value="5">Mayo</option>
+                        <option value="6">Junio</option>
+                        <option value="7">Julio</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Septiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
+                      </select>
+                    </div>
 
-                  <div class="input-group mb-3">
-                    <label class="input-group-text" for="inputGroupSelect01">Año</label>
-                    <select class="form-select" id="inputGroupSelect01">
-                      <option value="2020">2020</option>
-                      <option value="2021">2021</option>
-                      <option value="2022">2022</option>
-                      <option value="2023">2023</option>
-                      <option value="2024">2024</option>
-                      <option value="2025">2025</option>
-                    </select>
+                    <div class="input-group mb-3">
+                      <label class="input-group-text" for="inputGroupSelect01">Año</label>
+                      <select class="form-select" id="inputGroupSelect01">
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                      </select>
+                    </div>
+                    <button class="btn btn-blue text-light">Aplicar</button>
                   </div>
-                </div>
+                </form>
               </div>
             </div>
             <div class="accordion-item">
@@ -142,7 +150,8 @@
                 <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
                   <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
                   happening here in terms of content, but just filling up the space to make it look, at least at first
-                  glance, a bit more representative of how this would look in a real-world application.</div>
+                  glance, a bit more representative of how this would look in a real-world application.
+                </div>
               </div>
             </div>
           </div>
@@ -150,8 +159,9 @@
         </div>
       </div>
 
-      <div class="col-md-8">
-        <div>
+      <div class="col-md-8 container m-4">
+        <!-- CALENDARIO -->
+        <div class="bg-light container p-4 rounded">
           <div class="panel panel-cascade">
             <div class="panel-heading">
               <h3 class="panel-title">
@@ -164,12 +174,6 @@
                 <table class="fc-header" style="width:100%">
                   <tbody>
                     <tr>
-                      <td class="fc-header-left"><span
-                          class="fc-button fc-button-prev fc-state-default fc-corner-left fc-corner-right"
-                          unselectable="on"><span class="fc-text-arrow">‹</span></span><span
-                          class="fc-header-space"></span><span
-                          class="fc-button fc-button-next fc-state-default fc-corner-left fc-corner-right"
-                          unselectable="on"><span class="fc-text-arrow">›</span></span></td>
                       <td class="fc-header-center"><span class="fc-header-title">
                           <h2>Noviembre 2023</h2>
                         </span></td>
@@ -559,48 +563,7 @@
             </div>
           </div>
         </div>
-        <div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magni quos assumenda voluptate
-            asperiores
-            veniam ad quas ex rerum nobis necessitatibus est laborum aut atque, at voluptates pariatur quis
-            totam?
-          </p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magni quos assumenda voluptate
-            asperiores
-            veniam ad quas ex rerum nobis necessitatibus est laborum aut atque, at voluptates pariatur quis
-            totam?
-          </p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magni quos assumenda voluptate
-            asperiores
-            veniam ad quas ex rerum nobis necessitatibus est laborum aut atque, at voluptates pariatur quis
-            totam?
-          </p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magni quos assumenda voluptate
-            asperiores
-            veniam ad quas ex rerum nobis necessitatibus est laborum aut atque, at voluptates pariatur quis
-            totam?
-          </p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magni quos assumenda voluptate
-            asperiores
-            veniam ad quas ex rerum nobis necessitatibus est laborum aut atque, at voluptates pariatur quis
-            totam?
-          </p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magni quos assumenda voluptate
-            asperiores
-            veniam ad quas ex rerum nobis necessitatibus est laborum aut atque, at voluptates pariatur quis
-            totam?
-          </p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magni quos assumenda voluptate
-            asperiores
-            veniam ad quas ex rerum nobis necessitatibus est laborum aut atque, at voluptates pariatur quis
-            totam?
-          </p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magni quos assumenda voluptate
-            asperiores
-            veniam ad quas ex rerum nobis necessitatibus est laborum aut atque, at voluptates pariatur quis
-            totam?
-          </p>
-        </div>
+
 
       </div>
     </div>

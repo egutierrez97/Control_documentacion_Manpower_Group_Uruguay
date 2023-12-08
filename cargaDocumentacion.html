@@ -58,26 +58,26 @@
                     <p>Periodo</p>
 
                     <div class="input-group mb-3">
-                      <label class="input-group-text" for="inputGroupSelect01">Mes</label>
-                      <select class="form-select" id="inputGroupSelect01">
-                        <option value="1">Enero</option>
-                        <option value="2">Febrero</option>
-                        <option value="3">Marzo</option>
-                        <option value="4">Abril</option>
-                        <option value="5">Mayo</option>
-                        <option value="6">Junio</option>
-                        <option value="7">Julio</option>
-                        <option value="8">Agosto</option>
-                        <option value="9">Septiembre</option>
-                        <option value="10">Octubre</option>
-                        <option value="11">Noviembre</option>
-                        <option value="12">Diciembre</option>
+                      <label class="input-group-text" for="monthSendDoc">Mes</label>
+                      <select class="form-select" id="monthSendDoc" required>
+                        <option value="Enero">Enero</option>
+                        <option value="Febrero">Febrero</option>
+                        <option value="Marzo">Marzo</option>
+                        <option value="Abril">Abril</option>
+                        <option value="Mayo">Mayo</option>
+                        <option value="Junio">Junio</option>
+                        <option value="Julio">Julio</option>
+                        <option value="Agosto">Agosto</option>
+                        <option value="Septiembre">Septiembre</option>
+                        <option value="Octubre">Octubre</option>
+                        <option value="Noviembre">Noviembre</option>
+                        <option value="Diciembre">Diciembre</option>
                       </select>
                     </div>
 
                     <div class="input-group mb-3">
-                      <label class="input-group-text" for="inputGroupSelect01">Año</label>
-                      <select class="form-select" id="inputGroupSelect01">
+                      <label class="input-group-text" for="yearSendDoc">Año</label>
+                      <select class="form-select" id="yearSendDoc" required>
                         <option value="2020">2020</option>
                         <option value="2021">2021</option>
                         <option value="2022">2022</option>
@@ -87,7 +87,7 @@
                       </select>
                     </div>
 
-                    <button class="btn btn-blue text-light">Aplicar</button>
+                    <button class="btn btn-blue text-light" id="btnSendDoc">Aplicar</button>
                   </div>
                 </form>
 
@@ -105,26 +105,26 @@
                   <div class="accordion-body">
                     <p>Periodo</p>
                     <div class="input-group mb-3">
-                      <label class="input-group-text" for="inputGroupSelect01">Mes</label>
-                      <select class="form-select" id="inputGroupSelect01">
-                        <option value="1">Enero</option>
-                        <option value="2">Febrero</option>
-                        <option value="3">Marzo</option>
-                        <option value="4">Abril</option>
-                        <option value="5">Mayo</option>
-                        <option value="6">Junio</option>
-                        <option value="7">Julio</option>
-                        <option value="8">Agosto</option>
-                        <option value="9">Septiembre</option>
-                        <option value="10">Octubre</option>
-                        <option value="11">Noviembre</option>
-                        <option value="12">Diciembre</option>
+                      <label class="input-group-text" for="monthMyDoc">Mes</label>
+                      <select class="form-select" id="monthMyDoc">
+                        <option value="Enero">Enero</option>
+                        <option value="Febrero">Febrero</option>
+                        <option value="Marzo">Marzo</option>
+                        <option value="Abril">Abril</option>
+                        <option value="Mayo">Mayo</option>
+                        <option value="Junio">Junio</option>
+                        <option value="Julio">Julio</option>
+                        <option value="Agosto">Agosto</option>
+                        <option value="Septiembre">Septiembre</option>
+                        <option value="Octubre">Octubre</option>
+                        <option value="Noviembre">Noviembre</option>
+                        <option value="Diciembre">Diciembre</option>
                       </select>
                     </div>
 
                     <div class="input-group mb-3">
-                      <label class="input-group-text" for="inputGroupSelect01">Año</label>
-                      <select class="form-select" id="inputGroupSelect01">
+                      <label class="input-group-text" for="yearMyDoc">Año</label>
+                      <select class="form-select" id="yearMyDoc">
                         <option value="2020">2020</option>
                         <option value="2021">2021</option>
                         <option value="2022">2022</option>
@@ -146,34 +146,34 @@
             </div>
           </div>
         </div>
-
       </div>
+
       <div class="col-md-9 bg-light rounded">
         <div class="m-2 mt-3">
           <table class="table">
             <thead>
               <tr>
                 <th scope="col">Documentos</th>
-                <th scope="col"></th>
+                <th scope="col" id="showMonthAndYear"></th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td scope="row">Listado personal afectado</td>
                 <td><div class="input-group">
-                  <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                  <input type="file" class="form-control" id="inputGroupFile01" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                 </div></td>
               </tr>
               <tr>
                 <td scope="row">Nomina validada</td>
                 <td><div class="input-group">
-                  <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                  <input type="file" class="form-control" id="inputGroupFile02" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                 </div></td>
               </tr>
               <tr>
                 <td scope="row">Planilla unificada</td>
                 <td><div class="input-group">
-                  <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                  <input type="file" class="form-control" id="inputGroupFile03" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                 </div></td>
               </tr>
               <tr>
@@ -185,49 +185,49 @@
               <tr>
                 <td scope="row">Certificado BPS</td>
                 <td><div class="input-group">
-                  <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                  <input type="file" class="form-control" id="inputGroupFile05" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                 </div></td>
               </tr>
               <tr>
                 <td scope="row">Certificado DGI</td>
                 <td><div class="input-group">
-                  <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                  <input type="file" class="form-control" id="inputGroupFile06" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                 </div></td>
               </tr>
               <tr>
                 <td scope="row">Certificado BSE</td>
                 <td><div class="input-group">
-                  <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                  <input type="file" class="form-control" id="inputGroupFile07" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                 </div></td>
               </tr>
               <tr>
                 <td scope="row">Pago BPS</td>
                 <td><div class="input-group">
-                  <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                  <input type="file" class="form-control" id="inputGroupFile08" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                 </div></td>
               </tr>
               <tr>
                 <td scope="row">Pago DGI</td>
                 <td><div class="input-group">
-                  <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                  <input type="file" class="form-control" id="inputGroupFile09" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                 </div></td>
               </tr>
               <tr>
                 <td scope="row">Pago BSE</td>
                 <td><div class="input-group">
-                  <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                  <input type="file" class="form-control" id="inputGroupFile10" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                 </div></td>
               </tr>
               <tr>
                 <td scope="row">Altas BPS</td>
                 <td><div class="input-group">
-                  <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                  <input type="file" class="form-control" id="inputGroupFile11" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                 </div></td>
               </tr>
               <tr>
                 <td scope="row">Bajas BPS</td>
                 <td><div class="input-group">
-                  <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                  <input type="file" class="form-control" id="inputGroupFile12" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                 </div></td>
               </tr>
             </tbody>
@@ -238,11 +238,12 @@
 
   </main>
   <footer class="">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis porro ducimus quasi soluta praesentium sit nam est
-      eius quibusdam doloremque dolorem atque molestias, aperiam autem tempore? Soluta quidem recusandae mollitia.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis porro ducimus quasi soluta praesentium sit nam est eius quibusdam doloremque dolorem atque molestias, aperiam autem tempore? Soluta quidem recusandae mollitia.</p>
   </footer>
 
   <script src="Script/bootstrap.bundle.min.js"></script>
+  <script src="Script/script.js"></script>
+  <script src="Script/cargaDocumentacion.js"></script>
 </body>
 
 </html>

@@ -58,26 +58,26 @@
                     <p>Periodo</p>
 
                     <div class="input-group mb-3">
-                      <label class="input-group-text" for="inputGroupSelect01">Mes</label>
-                      <select class="form-select" id="inputGroupSelect01">
-                        <option value="1">Enero</option>
-                        <option value="2">Febrero</option>
-                        <option value="3">Marzo</option>
-                        <option value="4">Abril</option>
-                        <option value="5">Mayo</option>
-                        <option value="6">Junio</option>
-                        <option value="7">Julio</option>
-                        <option value="8">Agosto</option>
-                        <option value="9">Septiembre</option>
-                        <option value="10">Octubre</option>
-                        <option value="11">Noviembre</option>
-                        <option value="12">Diciembre</option>
+                      <label class="input-group-text" for="monthSendDoc">Mes</label>
+                      <select class="form-select" id="monthSendDoc" required>
+                        <option value="Enero">Enero</option>
+                        <option value="Febrero">Febrero</option>
+                        <option value="Marzo">Marzo</option>
+                        <option value="Abril">Abril</option>
+                        <option value="Mayo">Mayo</option>
+                        <option value="Junio">Junio</option>
+                        <option value="Julio">Julio</option>
+                        <option value="Agosto">Agosto</option>
+                        <option value="Septiembre">Septiembre</option>
+                        <option value="Octubre">Octubre</option>
+                        <option value="Noviembre">Noviembre</option>
+                        <option value="Diciembre">Diciembre</option>
                       </select>
                     </div>
 
                     <div class="input-group mb-3">
-                      <label class="input-group-text" for="inputGroupSelect01">Año</label>
-                      <select class="form-select" id="inputGroupSelect01">
+                      <label class="input-group-text" for="yearSendDoc">Año</label>
+                      <select class="form-select" id="yearSendDoc" required>
                         <option value="2020">2020</option>
                         <option value="2021">2021</option>
                         <option value="2022">2022</option>
@@ -87,7 +87,7 @@
                       </select>
                     </div>
 
-                    <button class="btn btn-blue text-light">Aplicar</button>
+                    <button class="btn btn-blue text-light" id="btnSendDoc">Aplicar</button>
                   </div>
                 </form>
 
@@ -105,26 +105,26 @@
                   <div class="accordion-body">
                     <p>Periodo</p>
                     <div class="input-group mb-3">
-                      <label class="input-group-text" for="inputGroupSelect01">Mes</label>
-                      <select class="form-select" id="inputGroupSelect01">
-                        <option value="1">Enero</option>
-                        <option value="2">Febrero</option>
-                        <option value="3">Marzo</option>
-                        <option value="4">Abril</option>
-                        <option value="5">Mayo</option>
-                        <option value="6">Junio</option>
-                        <option value="7">Julio</option>
-                        <option value="8">Agosto</option>
-                        <option value="9">Septiembre</option>
-                        <option value="10">Octubre</option>
-                        <option value="11">Noviembre</option>
-                        <option value="12">Diciembre</option>
+                      <label class="input-group-text" for="monthMyDoc">Mes</label>
+                      <select class="form-select" id="monthMyDoc">
+                        <option value="Enero">Enero</option>
+                        <option value="Febrero">Febrero</option>
+                        <option value="Marzo">Marzo</option>
+                        <option value="Abril">Abril</option>
+                        <option value="Mayo">Mayo</option>
+                        <option value="Junio">Junio</option>
+                        <option value="Julio">Julio</option>
+                        <option value="Agosto">Agosto</option>
+                        <option value="Septiembre">Septiembre</option>
+                        <option value="Octubre">Octubre</option>
+                        <option value="Noviembre">Noviembre</option>
+                        <option value="Diciembre">Diciembre</option>
                       </select>
                     </div>
 
                     <div class="input-group mb-3">
-                      <label class="input-group-text" for="inputGroupSelect01">Año</label>
-                      <select class="form-select" id="inputGroupSelect01">
+                      <label class="input-group-text" for="yearMyDoc">Año</label>
+                      <select class="form-select" id="yearMyDoc">
                         <option value="2020">2020</option>
                         <option value="2021">2021</option>
                         <option value="2022">2022</option>
@@ -160,6 +160,7 @@
   </footer>
 
   <script src="Script/bootstrap.bundle.min.js"></script>
+  <script src="Script/script.js"></script>
 </body>
 
 </html>
